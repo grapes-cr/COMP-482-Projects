@@ -1,0 +1,19 @@
+//Caitlin Rafael
+//Project 1
+//9/30/2021
+
+import java.util.*;
+import java.io.*;
+
+//get int, then int-1 becomes spot in array+1
+
+public class Project1{
+
+	public static void main(String[] args){
+		int[] inputs = readInput();
+		sort(inputs);
+		output(inputs);
+	}
+	
+	private static int[] readInput(){
+		
